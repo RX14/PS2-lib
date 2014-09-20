@@ -26,6 +26,6 @@ public:
 
 private:
     int _CLK, _DATA;
-}
+};
 
 #endif

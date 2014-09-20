@@ -155,7 +155,7 @@ unsigned char PS2::cmd(unsigned char data)
 
 bool PS2::ack()
 {
-    return (unsigned char)read() == (unsigned char)0xFA
+    return (unsigned char)read() == (unsigned char)0xFA;
 }
 
 bool PS2::cmd_ack(unsigned char data)
